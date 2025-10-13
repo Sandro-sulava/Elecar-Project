@@ -136,12 +136,3 @@ table {
   --button-bg: #222222;
   --button-text: #ffffff;
 }
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: var(--header-bg);
-  transition: background-color 0.3s ease;
-}
