@@ -136,3 +136,18 @@ table {
   --text-color4: #888b91;
   --text-color5: #f1f2f3;
 }
+
+@font-face {
+  font-family: "exo-regular";
+  src: url("/public/Exo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "exo-medium";
+  src: url("/public/Exo-Medium.ttf");
+}
+
+@font-face {
+  font-family: "exo-semibold";
+  src: url("/public/Exo-SemiBold.ttf");
+}
