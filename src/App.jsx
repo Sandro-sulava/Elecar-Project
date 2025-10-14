@@ -1,9 +1,11 @@
+import Footer from "./components/Footer/Footer"
+
 const App = () => {
   return (
     <div>
-      <h1>Hello world</h1>
+      <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
