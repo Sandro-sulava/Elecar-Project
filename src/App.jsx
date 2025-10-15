@@ -1,7 +1,9 @@
+import FutureTechnology from "./FutureTechnology/FutureTechnology";
+
 const App = () => {
   return (
     <div>
-      <h1>Hello world</h1>
+      <FutureTechnology />
     </div>
   );
 };
