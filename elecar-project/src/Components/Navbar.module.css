@@ -15,6 +15,7 @@
 
 .Homebutton {
   color: rgba(65, 119, 220, 1);
+  text-decoration: none;
 }
 
 .burger {
@@ -32,6 +33,15 @@
   width: 25px;
   height: 3px;
   background-color: rgba(255, 255, 255, 1);
+}
+
+.link {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.link.active {
+  color: wheat;
 }
 
 @media (max-width: 880px) {

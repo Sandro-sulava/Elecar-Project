@@ -13,13 +13,34 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? `${styles.link} ${styles.active}` : styles.link
+              }
+            >
+              About
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/popular">Popular</NavLink>
+            <NavLink
+              to="/popular"
+              className={({ isActive }) =>
+                isActive ? `${styles.link} ${styles.active}` : styles.link
+              }
+            >
+              Popular
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/featured">Featured</NavLink>
+            <NavLink
+              to="/featured"
+              className={({ isActive }) =>
+                isActive ? `${styles.link} ${styles.active}` : styles.link
+              }
+            >
+              Featured
+            </NavLink>
           </li>
         </ul>
       </nav>
