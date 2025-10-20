@@ -71,6 +71,8 @@ const Footer = () => {
         <img src="copyright.svg" alt="copyright" />
         <p>Bedimcode. All rights reserved</p>
       </div>
+      <div className={styles.footerShapes1} />
+      <div className={styles.footerShapes2} />
     </div>
   );
 };
