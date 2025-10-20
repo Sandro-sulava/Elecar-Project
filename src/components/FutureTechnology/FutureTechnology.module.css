@@ -36,7 +36,7 @@
 }
 
 .car-info-popup span {
-  font-family: "exo-regular" Arial, Helvetica, sans-serif;
+  font-family: "exo-regular", Arial, Helvetica, sans-serif;
   color: var(--text-color);
   max-width: 157px;
   width: 100%;
