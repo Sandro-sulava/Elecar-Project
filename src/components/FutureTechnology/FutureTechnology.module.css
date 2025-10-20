@@ -1,0 +1,117 @@
+.car-information-container {
+  display: flex;
+  background-color: var(--bg-color);
+  gap: 88px;
+  justify-content: center;
+  padding: 72px 0 88px;
+}
+
+.car-interior-container {
+  position: relative;
+}
+
+.car-info-popup {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  max-width: 197px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  right: 0;
+  bottom: 0;
+  transform: translateY(50%);
+  border-radius: 20px;
+  width: 100%;
+}
+
+.car-info-popup p {
+  font-family: "exo-semibold", Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+  margin-bottom: 8px;
+  padding-top: 16px;
+}
+
+.car-info-popup span {
+  font-family: "exo-regular" Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+  max-width: 157px;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.future-tech-container {
+  display: flex;
+  max-width: 401px;
+  flex-direction: column;
+}
+
+.future-tech-container h2 {
+  font-family: "exo-semibold", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: var(--text-color5);
+}
+
+.future-tech-container p {
+  font-family: "exo-regular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: var(--text-color3);
+  margin: 24px 0px 48px;
+}
+
+.know-more-button {
+  background-color: var(--text-color2);
+  border: none;
+  max-width: 149px;
+  padding: 14px 0px 14px;
+  border-radius: 4px;
+  font-family: "exo-medium", Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+@media (max-width: 1062px) {
+  .car-information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 24px 32px;
+  }
+
+  .car-interior-container img {
+    width: 312px;
+    height: 208px;
+  }
+
+  .car-info-popup {
+    max-width: 181px;
+  }
+
+  .future-tech-container {
+    max-width: 312px;
+  }
+
+  .future-tech-container h2 {
+    font-size: 20px;
+  }
+
+  .future-tech-container p {
+    font-size: 15px;
+  }
+
+  .know-more-button {
+    max-width: 144px;
+    padding: 16px 0 16px;
+  }
+
+  .car-info-popup p {
+    font-size: 16px;
+  }
+
+  .car-info-popup span {
+    font-size: 12px;
+  }
+}
