@@ -34,10 +34,11 @@
   padding: 11px;
   color: var(--text-color5);
   font-family: "exo-regular";
+  transition: background-color 0.5s ease-in-out;
 }
 
 .buttonContainer button:hover {
-  background-color: var(--text-color2);
+  background-color: #4177dc70;
   cursor: pointer;
 }
 
@@ -118,6 +119,29 @@
   margin: 0;
   width: 24px;
   height: 24px;
+}
+
+.loader {
+  border: 16px solid black;
+  border-top: 16px solid var(--text-color2);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+.error {
+  color: red;
+  font-size: 30px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 1000px) {
