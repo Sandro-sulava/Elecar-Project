@@ -51,7 +51,7 @@
   flex-wrap: wrap;
   max-width: 900px;
   gap: 72px;
-
+  min-height: 700px;
   font-family: "exo-regular";
 }
 
