@@ -92,7 +92,7 @@ const LuxuryCars = () => {
               <div className={styles.card}>
                 <h3>{info.brand}</h3>
                 <p>{info.model}</p>
-                <img src={info.img} alt="car" />
+                <img src={info.image} alt="car" />
                 <div className={styles.cardBackground} />
                 <h3>${info.price}</h3>
                 <button className={styles.cardBuyBtn}>
