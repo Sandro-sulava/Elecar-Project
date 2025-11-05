@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Exo-Regular";
+  src: url("/Exo-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Exo-Medium";
+  src: url("/Exo-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Exo-SemiBold";
+  src: url("/Exo-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-color: rgba(10, 10, 11, 1);
+  font-family: "Exo-Regular", sans-serif;
+}
+
+.sectionContainer {
+  background-color: rgba(10, 10, 11, 1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1280px;
+  min-height: 636px;
+  padding-top: 72px;
+  padding-bottom: 48px;
+  opacity: 1;
+  margin: 0 auto;
+}
+
+.sectionContainer h2 {
+  width: 278px;
+  height: 68px;
+  opacity: 1;
+  color: rgba(241, 242, 243, 1);
+  margin: 0 auto;
+  font-family: Exo;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.popularCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.carInfo p {
+  color: rgba(186, 190, 196, 1);
+  font-size: 16px;
+}
+
+.carInfo h3 {
+  color: rgba(241, 242, 243, 1);
+  font-family: Exo;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.carCard {
+  width: 258px;
+  height: 328px;
+  border-radius: 20px;
+  background-color: red;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  padding-left: 24.5px;
+  background-color: rgba(17, 18, 19, 1);
+  color: rgba(241, 242, 243, 1);
+  position: relative;
+}
+
+.carImage {
+  margin-left: 38px;
+}
+
+.carspeed {
+  margin-left: 20px;
+}
+.carDetails {
+  display: flex;
+  flex-direction: column;
+  color: #ccc;
+  gap: 15px;
+}
+
+.carDetails .Detail {
+  display: flex;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+.carPrice {
+  padding-top: 31px;
+  font-family: Exo;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.carShape {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  opacity: 1;
+  top: 1px;
+  left: 1px;
+  border-radius: 15px;
+}
+
+.Button {
+  position: absolute;
+  left: 202px;
+  top: 280px;
+  cursor: pointer;
+}
+
+.Acceleration {
+  margin-right: 4px;
+}
+
+.topspeed {
+  margin-right: 4px;
+}
+
+.charger {
+  margin-right: 4px;
+}
