@@ -8,21 +8,23 @@ const Feature = () => {
         <div>
           <img src="/Map.svg" alt="map" className={styles["location-map"]} />
         </div>
-        <div className={styles["car-image"]}>
-          <img src="/featured-car.svg" alt="car" />
-        </div>
-        <div>
-          <div>
-            <p>800v</p>
-            <span>Turbo Chargin</span>
-          </div>
-          <div>
-            <p>350</p>
-            <span>Km Range</span>
-          </div>
-          <div>
-            <p>480</p>
-            <span>Km Travel</span>
+        <div className={styles["car-info-section"]}>
+          <div className={styles["car-image"]}>
+            <img src="/featured-car.svg" alt="car" />
+            <div>
+              <div className={styles["car-info-popup"]}>
+                <h3 className={styles["car-info-h3"]}>800v</h3>
+                <p className={styles["car-info-p"]}>Turbo Chargin</p>
+              </div>
+              <div className={styles["car-info-popup"]}>
+                <h3 className={styles["car-info-h3"]}>350</h3>
+                <p className={styles["car-info-p"]}>Km Range</p>
+              </div>
+              <div className={styles["car-info-popup"]}>
+                <h3 className={styles["car-info-h3"]}>480</h3>
+                <p className={styles["car-info-p"]}>Km Travel</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -31,3 +33,5 @@ const Feature = () => {
 };
 
 export default Feature;
+
+// className={styles[""]}

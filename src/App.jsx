@@ -5,9 +5,9 @@ import Feature from "./components/feature/Feature";
 const App = () => {
   return (
     <div>
-      <FutureTechnology />
+      {/* <FutureTechnology /> */}
       <Feature />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
