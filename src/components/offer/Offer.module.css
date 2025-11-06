@@ -1,0 +1,98 @@
+.offer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.offer-section {
+  position: absolute;
+  display: flex;
+  margin: 72px 0 56px;
+  gap: 80px;
+  z-index: 3;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.h2-title {
+  font-family: "exo-semibold";
+  font-size: 24px;
+  font-weight: 600;
+  max-width: 312px;
+  width: 100%;
+  color: var(--text-color5);
+}
+
+.p-info {
+  padding: 32px 0 48px;
+  font-family: "exo-regular";
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 375px;
+  width: 100%;
+  color: var(--text-color3);
+}
+
+.sub-button {
+  font-family: "exo-medium";
+  padding: 14px 32px;
+  border-radius: 4px;
+  background-color: var(--text-color2);
+  border: none;
+  color: var(--text-color);
+}
+
+.bg-photo {
+  display: flex;
+  z-index: 1;
+  height: 392px;
+  width: 100%;
+}
+
+.mobile-bg {
+  display: none;
+}
+
+@media (max-width: 1062px) {
+  .offer-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 312px;
+    width: 100%;
+  }
+
+  .h2-title {
+    font-family: "exo-semibold";
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color5);
+  }
+
+  .p-info {
+    padding: 32px 0 48px;
+    font-family: "exo-regular";
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--text-color3);
+  }
+
+  .bg-photo {
+    display: none;
+  }
+
+  .mobile-bg {
+    display: flex;
+  }
+
+  .car-image img {
+    max-width: 400px;
+    width: 100%;
+    height: 180px;
+  }
+}
