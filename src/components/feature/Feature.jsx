@@ -1,7 +1,7 @@
-import "../styles/global.css";
+import "../Styles/global.css";
 
 const Feature = () => {
-  return <div className={Styles.}>Feature</div>;
+  return <div className={Styles.features}>123123</div>;
 };
 
 export default Feature;
