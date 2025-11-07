@@ -15,6 +15,7 @@
 @media (max-width: 1062px) {
   .car-brand-logo-section {
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
   }
