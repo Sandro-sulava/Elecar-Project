@@ -6,12 +6,13 @@
 
 .location-map {
   display: flex;
-  margin: 42px 205px 0;
+  position: relative;
 }
 
-.car-image {
+.porsche-car-img {
   position: absolute;
-  z-index: 2;
+  left: 10px;
+  top: 10px;
 }
 
 .car-info-section {
@@ -30,6 +31,10 @@
   flex-direction: column;
   align-items: center;
   z-index: 3;
+}
+
+.car-info-popup1 {
+  position: absolute;
 }
 
 .car-info-h3 {
